@@ -1,0 +1,196 @@
+/* GLOBAL */
+
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.clear{
+    clear: both;
+}
+
+/* 
+CSS CODE FOR EACH WEBSITE SESSION */
+
+/* HEADER */
+.header img{
+    width: 250px;
+    margin: auto;
+}
+
+.header ul{
+    list-style: none;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    margin: 8px 0px;
+}
+
+.header ul li{
+    display: inline;
+    margin: 0px 12px;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* CAROUSEL */
+.carousel{
+    background-image: url(../img/slider_1.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* INTRODUCTION */
+.intro span{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.intro__left,.intro__right{
+    float: left;
+    width: 50%;
+}
+
+.intro__content img{
+    display: block;
+    width: 100%;
+}
+
+.intro__left__small{
+    float: left;
+    width: 50%;
+}
+
+.intro__item{
+    padding: 0px 10px 15px;
+}
+
+
+/* PRODUCTS */
+.products h2{
+    text-align: center;
+}
+
+.product__item{
+    float: left;
+    width: 25%;
+    padding: 0px 10px;
+}
+
+.product__item img{
+    width: 100%;
+}
+
+.product__item h3{
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.product__item button{
+    margin: 15px 0px 0px;
+    border: none;
+    background-color: red;
+    border-radius: 3px;
+    color: white;
+    padding: 5px 7px;
+    font-weight: bold;
+}
+
+.products{
+    margin-bottom: 70px;
+}
+
+/* BANNER */
+.banner{
+    background-image: url(../img/nature.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+
+.banner__circle{
+    color: white;
+    background-color: rgba(123, 38, 37, 0.74);
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 35px;
+    left: 300px;
+    text-align: center;
+}
+
+.banner__circle p:first-child{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 50px 0px 0px;
+}
+
+.banner__circle p:nth-child(2){
+    /* font-weight: bold; */
+    font-size: 75px;
+    margin:0px;
+}
+
+.banner__circle p:nth-child(3){
+    margin: 5px 0px;
+}
+
+/* SERVICES */
+.services__content{
+    width: 70%;
+    margin: auto;
+}
+
+.services__item{
+    float: left;
+    width: 33%;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.services__item i{
+    font-size: 45px;
+}
+
+.services__item h3{
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+.services{
+    margin: 25px 0px 10px;
+}
+
+/* FOOTER */
+.footer{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.footer p:first-child{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer p{
+    margin: 0px;
+}
